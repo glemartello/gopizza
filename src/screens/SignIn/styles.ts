@@ -35,14 +35,14 @@ ${({ theme }) => css`
 export const Brand = styled.Image.attrs({
   resizeMode: 'contain'
 })`
-  height: 340px;
+  height: 240px;
   margin-top: 64px;
   margin-bottom: 32px;
 `;
 
 export const ForgotPasswordButton = styled.TouchableOpacity`
   align-self: flex-end;
-  margin-bottom; 20px;
+  margin-bottom: 20px;
 `;
 
 export const ForgotPasswordLabel = styled.Text`
